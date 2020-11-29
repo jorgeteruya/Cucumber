@@ -12,5 +12,5 @@ Funcionalidade:
 
   Cenário: Deve incrementar contador
     Dado que o valor do contador é 15
-    Quando eu incrementar em 5
-    Então o valor do contador será 18
+    Quando eu incrementar em 4
+    Então o valor do contador será 20

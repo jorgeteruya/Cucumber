@@ -1,3 +1,5 @@
+import org.junit.Assert;
+
 import io.cucumber.java.pt.*;
 
 public class AprenderCucumber {
@@ -37,6 +39,12 @@ public class AprenderCucumber {
 		System.out.println("int1: " + arg1);
 		System.out.println("Contador: " + arg1);
 		System.out.println(arg1 == contador);
+		//valida se é true
+		//Assert.assertTrue(arg1 == contador);
+		
+		//sendo que arg1 é o valor esperado e contador é o valor obtido
+		System.out.println("\nAssert.assertEquals");
+		Assert.assertEquals(arg1, contador);
 	}
 
 
